@@ -1,13 +1,18 @@
 JCaptchaPrompt-plowshare
 ========================
 
-This is a Captcha prompt for plowshare written in Java.
+This is a captcha solver for plowshare written in Java.
 
-It was written because plowshare does not provide a captcha prompt where captcha image and user input are displayed together. E.g. it displays the captcha with imagemagick and reads input from terminal.
+It's benefit above plowshare's buit-in solutions is, that it displays the captcha image and prompts for input within the same graphical window. As a result, you can launch multiple downloads in the same terminal in parallel while still being able to input captchas.
 
-The benefit of this is, that you can launch multiple downloads in the same terminal in parallel while still being able to input captchas.
+In comparison, plowshare's imagemagick captcha viewer displays the captcha image, but input has to be done via the terminal.
+
 
 How to use
 ==========
 
-plowshare --captchaprogram path/to/JCaptchaWrapper.sh
+Simply add the switch 
+
+    --captchaprogram path/to/JCaptchaWrapper.sh
+
+to your usual command line switches.
