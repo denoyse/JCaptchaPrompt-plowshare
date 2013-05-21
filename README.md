@@ -1,7 +1,7 @@
 JCaptchaPrompt-plowshare
 ========================
 
-This is a captcha solver for plowshare written in Java.
+This is a captcha input prompt for plowshare written in Java.
 
 It's benefit above plowshare's buit-in solutions is, that it displays the captcha image and prompts for input within the same graphical window. As a result, you can launch multiple downloads in the same terminal in parallel while still being able to input captchas.
 
