@@ -2,11 +2,6 @@ import javax.swing.*;
 
 public class JCaptchaPrompt {
   public static void main(String[] args) {
-    System.err.println(
-      "Module: " + args[0] +
-      "; Image: " + args[1] +
-      "; Type: " + args[2]
-    );
     JLabel image = new JLabel(new ImageIcon(args[1]));
     JTextField input = new JTextField();
     Object[] message = {"Please solve this captcha.", image, input};
